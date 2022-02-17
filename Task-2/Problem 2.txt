@@ -1,0 +1,16 @@
+Function Main
+    Declare Integer F0, F1, FN, N, Count
+    
+    Output "The value of the Nth term fibonacci number is"
+    Input N
+    Assign F0 = 0
+    Assign F1 = 1
+    Assign Count = 0
+    While Count < N-1
+        Assign FN = F0+F1
+        Assign F0 = F1
+        Assign F1 = FN
+        Assign Count = Count + 1
+    End
+    Output FN
+End
