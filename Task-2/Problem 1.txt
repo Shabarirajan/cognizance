@@ -1,0 +1,18 @@
+Function Main
+    Output "Enter value for Num"
+    Declare Integer Num, Div, Rem, I
+    
+    Assign Div = 3
+    Input Num
+    Declare Integer M, D, R
+    
+    Assign R = Num
+    Assign M = (Num/3)
+    Assign D = Num-3*M
+    Assign Rem = D
+    If Rem==0
+        Output "It is divisible by 3.Hence True"
+    False:
+        Output "It is not divisible by 3.Hence False"
+    End
+End
